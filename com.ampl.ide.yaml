@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: amplide.sh
-tags : 'proprietary'
+tags: proprietary
 finish-args:
   - --share=ipc
   - --socket=fallback-x11
@@ -24,17 +24,17 @@ modules:
         only-arches:
           - x86_64
         url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
-        sha256: 82a2fcaca791ee9d4cfde15c22157dfb34361e346ec0b67907a517d8082d128e
-        size: 469603833
+        sha256: 5674c291dc5eabf7876204dcd002b86aab043ffdb398a4e0776d8c1023fa352e
+        size: 469604595
         x-checker-data:
-            type: rotating-url
-            url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
+          type: rotating-url
+          url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
       - type: script
         dest-filename: apply_extra
         commands:
-        - tar -xf /app/extra/amplide.linux64.tgz
-        - rm -f /app/extra/amplide.linux64.tgz
-        - sed -i 's=@user.home/.config/amplide=config=g' /app/extra/ampl.linux-intel64/amplide/configuration/config.ini
+          - tar -xf /app/extra/amplide.linux64.tgz
+          - rm -f /app/extra/amplide.linux64.tgz
+          - sed -i 's=@user.home/.config/amplide=config=g' /app/extra/ampl.linux-intel64/amplide/configuration/config.ini
       - type: file
         path: com.ampl.ide.desktop
       - type: file
@@ -43,4 +43,4 @@ modules:
         path: icon.svg
       - type: file
         path: amplide.sh
-        
+
