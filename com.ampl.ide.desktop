@@ -3,3 +3,4 @@ Type=Application
 Name=AMPL IDE
 Icon=com.ampl.ide
 Exec=amplide.sh
+Categories=Development
