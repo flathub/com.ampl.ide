@@ -24,4 +24,10 @@
     <release version="4.0.0.202308171623" date="2023-09-28"/>
   </releases>
   <content_rating type="oars-1.1"/>
+  <keywords>
+    <keyword>ampl ide</keyword>
+    <keyword>ampl solver access</keyword>
+    <keyword>ampl development environment</keyword>
+    <keyword>ampl modeling interface</keyword>
+  </keywords>
 </component>
