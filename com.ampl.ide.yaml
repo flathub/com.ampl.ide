@@ -24,8 +24,8 @@ modules:
         only-arches:
           - x86_64
         url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
-        sha256: 563d6bd29088371d2ed9bfb92d67d13bc28f2a76d1638b8f128222e421fa86c5
-        size: 482777387
+        sha256: 9ccf9a9064b945ba95fe91e0099d97767d425e8a1f783030e9e16bf87953e9fd
+        size: 393103952
         x-checker-data:
           type: rotating-url
           url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
