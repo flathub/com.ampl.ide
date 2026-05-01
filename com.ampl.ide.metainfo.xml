@@ -23,6 +23,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="4.1.0.202412231704" date="2024-12-23"/>
     <release version="4.0.0.202308171623" date="2023-09-28"/>
   </releases>
   <content_rating type="oars-1.1"/>
