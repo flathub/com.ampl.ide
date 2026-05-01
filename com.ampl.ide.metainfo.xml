@@ -4,11 +4,13 @@
   <id>com.ampl.ide</id>
   <launchable type="desktop-id">com.ampl.ide.desktop</launchable>
   <name>AMPL IDE</name>
-  <developer_name>AMPL Optimization, Inc</developer_name>
+  <developer id="com.ampl">
+    <name>AMPL Optimization, Inc</name>
+  </developer>
   <summary>A simple and straightforward enhanced modeling interface for AMPL users</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
-  <url type="homepage">https://ampl.com/</url>
+  <url type="homepage">https://ampl.com</url>
   <description>
     <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by AMPL Optimization, Inc.**</p>
     <p>
@@ -17,7 +19,7 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://ampl.com/wp-content/uploads/ampl-ide-image-example.jpg</image>
+      <image>https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jb20vYW1wbC9pZGUvZmNiMTNmNWJiZjk0N2YzNTVhNThmN2UyNDYzOTI1MzYvc2NyZWVuc2hvdHMvaW1hZ2UtMV9vcmlnLnBuZw</image>
     </screenshot>
   </screenshots>
   <releases>
