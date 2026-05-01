@@ -1,6 +1,6 @@
 app-id: com.ampl.ide
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: amplide.sh
 tags:
@@ -25,8 +25,8 @@ modules:
         only-arches:
           - x86_64
         url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
-        sha256: 7704ddfd1c6dee7ed54a65abdd29b3193cff3ad0744344f804c508ec27ce7ddc
-        size: 395581501
+        sha256: 41a79e5895b2ef15bd3b47ed07d172de36a7f4ba10fd1e1f98c100a01528b8bb
+        size: 397162841
         x-checker-data:
           type: rotating-url
           url: https://portal.ampl.com/dl/amplce/amplide.linux64.tgz
